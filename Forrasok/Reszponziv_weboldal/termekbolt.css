@@ -1,0 +1,449 @@
+/* =========================================================
+   ALAPBEÁLLÍTÁSOK
+   ========================================================= */
+
+:root {
+    --krem: #eef5ff;
+    --vilagos: #f8fbff;
+    --sotet: #102a43;
+    --kozep: #1f4e79;
+    --kiemelt: #3f8cff;
+    --kartya: #ffffff;
+    --kartya-also: #dbeafe;
+    --veszely: #9b1c1c;
+    --figyelmeztetes: #8a5a00;
+    --arnyek: rgba(16, 42, 67, 0.16);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding-top: 72px;
+    background-color: var(--krem);
+    color: var(--sotet);
+    font-family: Georgia, 'Times New Roman', serif;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-brand,
+.btn {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h2 {
+    font-weight: 700;
+    color: var(--sotet);
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* =========================================================
+   NAVIGÁCIÓ
+   ========================================================= */
+
+.navbar {
+    min-height: 72px;
+    background-color: var(--sotet);
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+.navbar .nav-link {
+    color: var(--vilagos);
+}
+
+.navbar .nav-link {
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: var(--kiemelt);
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.brand-jel {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin-right: 0.5rem;
+    border: 2px solid var(--vilagos);
+    border-radius: 50%;
+    font-weight: 700;
+    color: var(--vilagos);
+}
+
+/* =========================================================
+   GOMBOK
+   ========================================================= */
+
+.btn-sajat {
+    background-color: var(--kozep);
+    border-color: var(--kozep);
+    color: var(--vilagos);
+    font-weight: 700;
+}
+
+.btn-sajat:hover,
+.btn-sajat:focus {
+    background-color: var(--sotet);
+    border-color: var(--sotet);
+    color: var(--vilagos);
+}
+
+.btn-vilagos {
+    background-color: var(--vilagos);
+    border-color: var(--vilagos);
+    color: var(--sotet);
+    font-weight: 700;
+}
+
+.btn-vilagos:hover,
+.btn-vilagos:focus {
+    background-color: var(--kartya-also);
+    border-color: var(--kartya-also);
+    color: var(--sotet);
+}
+
+.btn-outline-danger {
+    font-weight: 700;
+}
+
+/* =========================================================
+   HERO ÉS FEJLÉC
+   ========================================================= */
+
+.hero-szekcio {
+    min-height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* ..... */
+    background-size: cover;
+    background-position: center;
+    color: var(--vilagos);
+}
+
+.hero-tartalom {
+    max-width: 950px;
+}
+
+.hero-tartalom h1 {
+    font-size: clamp(2.4rem, 6vw, 5rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-tartalom p {
+    max-width: 760px;
+    margin: 20px auto 0;
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    font-weight: 600;
+}
+
+.oldal-fejlec {
+    background:
+        linear-gradient(120deg, rgba(16, 42, 67, 0.92), rgba(31, 78, 121, 0.72)),
+        url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--vilagos);
+    padding: 5rem 0;
+}
+
+.oldal-fejlec h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 700;
+}
+
+.oldal-fejlec p {
+    font-size: 1.15rem;
+    margin-bottom: 0;
+}
+
+/* =========================================================
+   SZEKCIÓK
+   ========================================================= */
+
+.tartalmi-szekcio,
+.kiemelt-szekcio {
+    padding: 5rem 0;
+    scroll-margin-top: 80px;
+}
+
+.kiemelt-szekcio {
+    background-color: var(--vilagos);
+}
+
+.bevezeto-szoveg {
+    max-width: 850px;
+    margin: 1.2rem auto 0;
+    color: var(--sotet);
+}
+
+.info-doboz,
+.checkout-box {
+    background-color: var(--kartya);
+    border: 1px solid rgba(16, 42, 67, 0.18);
+    border-radius: 14px;
+    padding: 1.5rem;
+}
+
+.info-doboz h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--kozep);
+}
+
+.checkout-box h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--sotet);
+}
+
+.form-control:focus {
+    border-color: var(--kozep);
+    box-shadow: 0 0 0 0.2rem rgba(31, 78, 121, 0.16);
+}
+
+/* =========================================================
+   FŐOLDALI TERMÉKKÁRTYÁK
+   ========================================================= */
+
+.termek-kartya {
+    height: 100%;
+    overflow: hidden;
+    background-color: var(--kartya);
+    border: 1px solid rgba(16, 42, 67, 0.35);
+    border-radius: 10px;
+    box-shadow: 0 8px 22px var(--arnyek);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.termek-kartya:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(16, 42, 67, 0.22);
+}
+
+.termek-kartya img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.termek-kartya .card-body {
+    background-color: var(--kartya);
+    min-height: 160px;
+    padding: 1rem;
+}
+
+.termek-kartya .card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--sotet);
+}
+
+.termek-kartya .card-text {
+    font-size: 0.95rem;
+}
+
+.termek-kartya .card-footer {
+    background-color: var(--kartya-also);
+    border-top: 1px solid rgba(16, 42, 67, 0.18);
+}
+
+.termek-meta {
+    color: var(--kozep);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/* =========================================================
+   MODAL
+   ========================================================= */
+
+.modal-content {
+    background-color: var(--vilagos);
+    color: var(--sotet);
+    border: 1px solid rgba(16, 42, 67, 0.25);
+    border-radius: 8px;
+}
+
+.modal-header,
+.modal-footer {
+    background-color: var(--vilagos);
+    border-color: rgba(16, 42, 67, 0.14);
+}
+
+.modal-body {
+    background-color: var(--vilagos);
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+.modal-alcim {
+    display: none;
+}
+
+/* =========================================================
+   EGYSZERŰ MODALOS TERMÉKLISTA
+   ========================================================= */
+
+.termek-lista-sor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.85rem 0.4rem;
+    border-bottom: 1px solid rgba(16, 42, 67, 0.15);
+    background-color: var(--vilagos);
+}
+
+.termek-lista-adat {
+    display: flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+}
+
+.termek-lista-adat strong {
+    font-weight: 700;
+}
+
+.termek-lista-muvelet {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.termek-lista-muvelet .mennyiseg-input {
+    width: 70px;
+    text-align: center;
+}
+/* =========================================================
+   EGYSZERŰ RENDELÉSI KOSÁR
+   ========================================================= */
+
+.kosar-lista-sor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.85rem 0.4rem;
+    border-bottom: 1px solid rgba(16, 42, 67, 0.15);
+}
+
+.kosar-lista-adat {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.kosar-lista-adat strong {
+    font-weight: 700;
+}
+
+.kosar-lista-muvelet {
+    display: flex;
+    align-items: center;
+}
+
+.kosar-idoszak {
+    color: var(--kozep);
+    font-weight: 700;
+}
+
+/* =========================================================
+   ÖSSZESÍTÉS
+   ========================================================= */
+
+.osszesites-doboz {
+    background-color: var(--kartya-also);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.osszesites-doboz p {
+    margin-bottom: 0.35rem;
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.footer {
+    background-color: var(--sotet);
+    color: var(--vilagos);
+}
+
+/* =========================================================
+   RESZPONZÍV BEÁLLÍTÁSOK
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+    .navbar .nav-link {
+        margin-left: 0;
+        padding: 0.7rem 0;
+    }
+
+    .hero-szekcio {
+        min-height: 70vh;
+    }
+}
+
+@media (max-width: 575.98px) {
+    body {
+        padding-top: 68px;
+    }
+
+    .brand-jel {
+        width: 36px;
+        height: 36px;
+    }
+
+    .navbar-brand {
+        font-size: 0.95rem;
+    }
+
+    .tartalmi-szekcio,
+    .kiemelt-szekcio {
+        padding: 3rem 0;
+    }
+
+    .termek-lista-sor,
+    .kosar-lista-sor {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .termek-lista-muvelet {
+        width: 100%;
+    }
+}

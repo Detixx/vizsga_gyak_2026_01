@@ -1,0 +1,7 @@
+EZT KELL LÁTNI A VÉGÉN A TERMINÁLNAK:
+\Desktop\Forrasok\Segedallomanyok\bootstrapdokumentacio> 
+
+EZT A PARANCSOT KELL KIADNI:
+npm run docs-serve
+
+UTÁNA A 9001-es linkre kattintva elindul a BootStrap dokumentáció.

@@ -1,0 +1,21 @@
+Id;Azonosito;Nev;Telefon;Email
+1;DIAK001;Kovács Anna;36301234567;kovacs.anna@iskola.hu
+2;DIAK002;Nagy Bence;36305551234;nagy.bence@iskola.hu
+3;DIAK003;Szabó Laura;36305552345;szabo.laura@iskola.hu
+4;DIAK004;Tóth Márk;36305553456;toth.mark@iskola.hu
+5;DIAK005;Varga Eszter;36305554567;varga.eszter@iskola.hu
+6;DIAK006;Kiss Dániel;36305555678;kiss.daniel@iskola.hu
+7;DIAK007;Horváth Nóra;36305556789;horvath.nora@iskola.hu
+8;;Szalai Gábor;36305550101;szalai.gabor@example.hu
+9;;Lukács Petra;36305550102;lukacs.petra@example.hu
+10;;Fekete Tamás;36305550103;fekete.tamas@example.hu
+11;;Papp Júlia;36305550104;papp.julia@example.hu
+12;;Bíró Levente;36305550105;biro.levente@example.hu
+13;DIAK008;Farkas Máté;36305557890;farkas.mate@iskola.hu
+14;DIAK009;Balogh Réka;36305558901;balogh.reka@iskola.hu
+15;;Sipos Nóra;36305550106;sipos.nora@example.hu
+16;;Rácz Márton;36305550107;racz.marton@example.hu
+17;;Váradi Eszter;36305550108;varadi.eszter@example.hu
+18;;Kelemen Dávid;36305550109;kelemen.david@example.hu
+19;DIAK010;Molnár Péter;36305559012;molnar.peter@iskola.hu
+20;;Németh Orsolya;36305550110;nemeth.orsolya@example.hu

@@ -1,0 +1,16 @@
+﻿Id;Nev;Leiras;Egysegar;Keszlet;Elerheto;KepFajlnev
+1;Laptop;Hordozható számítógép tanuláshoz, beadandók készítéséhez és otthoni munkához.;185000;9;1;laptop.jpg
+2;Tablet;Könnyen hordozható érintőkijelzős eszköz jegyzeteléshez és böngészéshez.;125000;12;1;tablet.jpg
+3;Pendrive;USB adattároló kisebb fájlok, dokumentumok és beadandók mentéséhez.;4500;50;1;pendrive.jpg
+4;Webkamera;Külső webkamera online órákhoz, megbeszélésekhez és videóhívásokhoz.;12500;18;1;webkamera.jpg
+5;Fejhallgató;Mikrofonnal ellátott fejhallgató online kommunikációhoz és tanuláshoz.;16500;25;1;fejhallgato.jpg
+6;Billentyűzet;Teljes méretű vezetékes billentyűzet kényelmes gépeléshez.;8900;30;1;billentyuzet.jpg
+7;Vezeték nélküli egér;Kompakt vezeték nélküli egér mindennapi számítógépes használathoz.;7200;40;1;eger.jpg
+8;Egérpad;Csúszásmentes egérpad pontosabb és kényelmesebb munkavégzéshez.;2500;60;1;egerpad.jpg
+9;Laptop táska;Párnázott laptop táska hordozható számítógép biztonságos szállításához.;9800;22;1;laptop-taska.jpg
+10;USB-C töltő;USB-C csatlakozós hálózati töltő kompatibilis eszközök töltéséhez.;7900;35;1;usb-c-tolto.jpg
+11;HDMI kábel;HDMI kábel monitorok, projektorok és egyéb kijelzők csatlakoztatásához.;3200;45;1;hdmi-kabel.jpg
+12;USB elosztó;Többportos USB elosztó perifériák és adathordozók csatlakoztatásához.;5900;32;1;usb-eloszto.jpg
+13;Külső merevlemez;Nagyobb kapacitású külső adattároló biztonsági mentésekhez és fájlok tárolásához.;32000;14;1;kulso-merevlemez.jpg
+14;Monitor;Külső monitor kényelmesebb munkavégzéshez, fejlesztéshez és tanuláshoz.;68000;10;1;monitor.jpg
+15;Laptop állvány;Állítható laptop állvány ergonomikusabb testtartáshoz és munkavégzéshez.;6500;28;1;laptop-allvany.jpg
