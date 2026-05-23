@@ -1,0 +1,21 @@
+﻿Id;VasarloAzonosito;VasarloNev;Telefon;Email;KedvezmenySzazalek;Osszeg;KedvezmenyOsszeg;FizetendoOsszeg
+1;DIAK001;Kovács Anna;+36301234567;kovacs.anna@iskola.hu;20;194800;38960;155840
+2;;Szalai Gábor;+36305550101;szalai.gabor@example.hu;0;132900;0;132900
+3;DIAK002;Nagy Bence;+36305551234;nagy.bence@iskola.hu;20;19900;3980;15920
+4;;Lukács Petra;+36305550102;lukacs.petra@example.hu;0;29000;0;29000
+5;DIAK003;Szabó Laura;+36305552345;szabo.laura@iskola.hu;20;18600;3720;14880
+6;;Fekete Tamás;+36305550103;fekete.tamas@example.hu;0;37900;0;37900
+7;DIAK004;Tóth Márk;+36305553456;toth.mark@iskola.hu;20;71200;14240;56960
+8;;Papp Júlia;+36305550104;papp.julia@example.hu;0;21900;0;21900
+9;DIAK005;Varga Eszter;+36305554567;varga.eszter@iskola.hu;20;134000;26800;107200
+10;;Bíró Levente;+36305550105;biro.levente@example.hu;0;25400;0;25400
+11;DIAK006;Kiss Dániel;+36305555678;kiss.daniel@iskola.hu;20;18400;3680;14720
+12;;Sipos Nóra;+36305550106;sipos.nora@example.hu;0;38000;0;38000
+13;DIAK007;Horváth Nóra;+36305556789;horvath.nora@iskola.hu;20;253000;50600;202400
+14;;Rácz Márton;+36305550107;racz.marton@example.hu;0;28400;0;28400
+15;DIAK008;Farkas Máté;+36305557890;farkas.mate@iskola.hu;20;38500;7700;30800
+16;;Váradi Eszter;+36305550108;varadi.eszter@example.hu;0;31400;0;31400
+17;DIAK009;Balogh Réka;+36305558901;balogh.reka@iskola.hu;20;32200;6440;25760
+18;;Kelemen Dávid;+36305550109;kelemen.david@example.hu;0;141500;0;141500
+19;DIAK010;Molnár Péter;+36305559012;molnar.peter@iskola.hu;20;22200;4440;17760
+20;;Németh Orsolya;+36305550110;nemeth.orsolya@example.hu;0;74500;0;74500
